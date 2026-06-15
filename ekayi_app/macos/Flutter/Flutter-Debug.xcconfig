@@ -1,0 +1,49 @@
+import 'dart:ffi';
+import 'package:ffi/ffi.dart';
+import 'dart:io';
+
+// 1. Gushiraho ishusho y'ukuboko kwa C++ muri Dart (Signatures)
+typedef KwinjizaC = Int32 Function(Pointer<Utf8> id, Pointer<Utf8> izina, Double umugabane);
+typedef KwinjizaDart = int Function(Pointer<Utf8> id, Pointer<Utf8> izina, double umugabane);
+
+typedef KurebaIsandukuC = Double Function();
+typedef KurebaIsandukuDart = double Function();
+
+class EkayiEngine {
+  late DynamicLibrary _lib;
+  late KwinjizaDart kwinjizaUmunyamuryango;
+  late KurebaIsandukuDart kurebaIsanduku;
+
+  EkayiEngine() {
+    // 2. gufungura Library hashingiye kuri OS
+    if (Platform.isLinux || Platform.isAndroid) {
+      _lib = DynamicLibrary.open('libekayi_engine.so');
+    } else if (Platform.isWindows) {
+      _lib = DynamicLibrary.open('ekayi_engine.dll');
+    } else {
+      _lib = DynamicLibrary.process();
+    }
+
+    // 3. Guhuza izina rya function ryo mu C++ n'iryo muri Dart
+    kwinjizaUmunyamuryango = _lib
+        .lookup<NativeFunction<KwinjizaC>>('kwinjizaUmunyamuryangoC')
+        .asFunction<KwinjizaDart>();
+
+    kurebaIsanduku = _lib
+        .lookup<NativeFunction<KurebaIsandukuC>>('kurebaIsandukuC')
+        .asFunction<KurebaIsandukuDart>();
+  }
+
+  // Uburyo bworoshye bwo kuyihamagara muri Flutter UI
+  int andikaUmunyamuryango(String id, String izina, double umugabane) {
+    final idPtr = id.toNativeUtf8();
+    final izinaPtr = izina.toNativeUtf8();
+    
+    final result = kwinjizaUmunyamuryango(idPtr, izinaPtr, umugabane);
+    
+    // Buri gihe we kwibagirwa gufuta memory ya pointers (Pro development!)
+    malloc.free(idPtr);
+    malloc.free(izinaPtr);
+    return result;
+  }
+}
