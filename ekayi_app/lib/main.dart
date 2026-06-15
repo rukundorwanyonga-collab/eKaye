@@ -11,7 +11,7 @@ class EKayeApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'eKaye',
+      title: 'eKAYI_Yacu',
       home: const HomePage(),
     );
   }
