@@ -21,7 +21,7 @@
     },
     {
       "name": "clock",
-      "rootUri": "file:///home/codespace/.pub-cache/hosted/pub.dev/clock-1.1.2",
+      "rootUri": "file:///home/codespace/.pub-cache/hosted/pub.dev/clock-1.1.3",
       "packageUri": "lib/",
       "languageVersion": "3.4"
     },
@@ -32,10 +32,10 @@
       "languageVersion": "3.4"
     },
     {
-      "name": "cupertino_icons",
-      "rootUri": "file:///home/codespace/.pub-cache/hosted/pub.dev/cupertino_icons-1.0.9",
+      "name": "crypto",
+      "rootUri": "file:///home/codespace/.pub-cache/hosted/pub.dev/crypto-3.0.7",
       "packageUri": "lib/",
-      "languageVersion": "3.9"
+      "languageVersion": "3.4"
     },
     {
       "name": "fake_async",
@@ -45,21 +45,27 @@
     },
     {
       "name": "flutter",
-      "rootUri": "file:///home/codespace/flutter_sdk/packages/flutter",
+      "rootUri": "file:///home/codespace/flutter/packages/flutter",
       "packageUri": "lib/",
-      "languageVersion": "3.10"
+      "languageVersion": "3.11"
     },
     {
       "name": "flutter_lints",
-      "rootUri": "file:///home/codespace/.pub-cache/hosted/pub.dev/flutter_lints-6.0.0",
+      "rootUri": "file:///home/codespace/.pub-cache/hosted/pub.dev/flutter_lints-5.0.0",
       "packageUri": "lib/",
-      "languageVersion": "3.8"
+      "languageVersion": "3.5"
     },
     {
       "name": "flutter_test",
-      "rootUri": "file:///home/codespace/flutter_sdk/packages/flutter_test",
+      "rootUri": "file:///home/codespace/flutter/packages/flutter_test",
       "packageUri": "lib/",
-      "languageVersion": "3.10"
+      "languageVersion": "3.11"
+    },
+    {
+      "name": "intl",
+      "rootUri": "file:///home/codespace/.pub-cache/hosted/pub.dev/intl-0.19.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
     },
     {
       "name": "leak_tracker",
@@ -81,15 +87,15 @@
     },
     {
       "name": "lints",
-      "rootUri": "file:///home/codespace/.pub-cache/hosted/pub.dev/lints-6.1.0",
+      "rootUri": "file:///home/codespace/.pub-cache/hosted/pub.dev/lints-5.1.1",
       "packageUri": "lib/",
-      "languageVersion": "3.8"
+      "languageVersion": "3.6"
     },
     {
       "name": "matcher",
-      "rootUri": "file:///home/codespace/.pub-cache/hosted/pub.dev/matcher-0.12.19",
+      "rootUri": "file:///home/codespace/.pub-cache/hosted/pub.dev/matcher-0.12.20",
       "packageUri": "lib/",
-      "languageVersion": "3.7"
+      "languageVersion": "3.10"
     },
     {
       "name": "material_color_utilities",
@@ -99,9 +105,15 @@
     },
     {
       "name": "meta",
-      "rootUri": "file:///home/codespace/.pub-cache/hosted/pub.dev/meta-1.18.0",
+      "rootUri": "file:///home/codespace/.pub-cache/hosted/pub.dev/meta-1.19.0",
       "packageUri": "lib/",
       "languageVersion": "3.5"
+    },
+    {
+      "name": "nested",
+      "rootUri": "file:///home/codespace/.pub-cache/hosted/pub.dev/nested-1.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
     },
     {
       "name": "path",
@@ -110,10 +122,28 @@
       "languageVersion": "3.4"
     },
     {
-      "name": "sky_engine",
-      "rootUri": "file:///home/codespace/flutter_sdk/bin/cache/pkg/sky_engine",
+      "name": "platform",
+      "rootUri": "file:///home/codespace/.pub-cache/hosted/pub.dev/platform-3.1.6",
       "packageUri": "lib/",
-      "languageVersion": "3.10"
+      "languageVersion": "3.2"
+    },
+    {
+      "name": "plugin_platform_interface",
+      "rootUri": "file:///home/codespace/.pub-cache/hosted/pub.dev/plugin_platform_interface-2.1.8",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "provider",
+      "rootUri": "file:///home/codespace/.pub-cache/hosted/pub.dev/provider-6.1.5+1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "sky_engine",
+      "rootUri": "file:///home/codespace/flutter/bin/cache/pkg/sky_engine",
+      "packageUri": "lib/",
+      "languageVersion": "3.11"
     },
     {
       "name": "source_span",
@@ -122,8 +152,38 @@
       "languageVersion": "3.1"
     },
     {
+      "name": "sqflite",
+      "rootUri": "file:///home/codespace/.pub-cache/hosted/pub.dev/sqflite-2.4.3",
+      "packageUri": "lib/",
+      "languageVersion": "3.12"
+    },
+    {
+      "name": "sqflite_android",
+      "rootUri": "file:///home/codespace/.pub-cache/hosted/pub.dev/sqflite_android-2.4.3",
+      "packageUri": "lib/",
+      "languageVersion": "3.12"
+    },
+    {
+      "name": "sqflite_common",
+      "rootUri": "file:///home/codespace/.pub-cache/hosted/pub.dev/sqflite_common-2.5.11",
+      "packageUri": "lib/",
+      "languageVersion": "3.12"
+    },
+    {
+      "name": "sqflite_darwin",
+      "rootUri": "file:///home/codespace/.pub-cache/hosted/pub.dev/sqflite_darwin-2.4.3+1",
+      "packageUri": "lib/",
+      "languageVersion": "3.12"
+    },
+    {
+      "name": "sqflite_platform_interface",
+      "rootUri": "file:///home/codespace/.pub-cache/hosted/pub.dev/sqflite_platform_interface-2.4.1",
+      "packageUri": "lib/",
+      "languageVersion": "3.12"
+    },
+    {
       "name": "stack_trace",
-      "rootUri": "file:///home/codespace/.pub-cache/hosted/pub.dev/stack_trace-1.12.1",
+      "rootUri": "file:///home/codespace/.pub-cache/hosted/pub.dev/stack_trace-1.12.2",
       "packageUri": "lib/",
       "languageVersion": "3.4"
     },
@@ -140,6 +200,12 @@
       "languageVersion": "3.1"
     },
     {
+      "name": "synchronized",
+      "rootUri": "file:///home/codespace/.pub-cache/hosted/pub.dev/synchronized-3.4.1+2",
+      "packageUri": "lib/",
+      "languageVersion": "3.12"
+    },
+    {
       "name": "term_glyph",
       "rootUri": "file:///home/codespace/.pub-cache/hosted/pub.dev/term_glyph-1.2.2",
       "packageUri": "lib/",
@@ -147,19 +213,25 @@
     },
     {
       "name": "test_api",
-      "rootUri": "file:///home/codespace/.pub-cache/hosted/pub.dev/test_api-0.7.11",
+      "rootUri": "file:///home/codespace/.pub-cache/hosted/pub.dev/test_api-0.7.12",
       "packageUri": "lib/",
-      "languageVersion": "3.7"
+      "languageVersion": "3.10"
+    },
+    {
+      "name": "typed_data",
+      "rootUri": "file:///home/codespace/.pub-cache/hosted/pub.dev/typed_data-1.4.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.5"
     },
     {
       "name": "vector_math",
-      "rootUri": "file:///home/codespace/.pub-cache/hosted/pub.dev/vector_math-2.2.0",
+      "rootUri": "file:///home/codespace/.pub-cache/hosted/pub.dev/vector_math-2.4.2",
       "packageUri": "lib/",
-      "languageVersion": "3.1"
+      "languageVersion": "3.10"
     },
     {
       "name": "vm_service",
-      "rootUri": "file:///home/codespace/.pub-cache/hosted/pub.dev/vm_service-15.2.0",
+      "rootUri": "file:///home/codespace/.pub-cache/hosted/pub.dev/vm_service-15.3.0",
       "packageUri": "lib/",
       "languageVersion": "3.5"
     },
@@ -167,12 +239,12 @@
       "name": "ekaye",
       "rootUri": "../",
       "packageUri": "lib/",
-      "languageVersion": "3.12"
+      "languageVersion": "3.0"
     }
   ],
   "generator": "pub",
-  "generatorVersion": "3.12.1",
-  "flutterRoot": "file:///home/codespace/flutter_sdk",
-  "flutterVersion": "3.44.1",
+  "generatorVersion": "3.13.2",
+  "flutterRoot": "file:///home/codespace/flutter",
+  "flutterVersion": "3.47.2",
   "pubCache": "file:///home/codespace/.pub-cache"
 }

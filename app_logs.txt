@@ -1,0 +1,156 @@
+[ +178 ms] Artifact Instance of 'MaterialFonts' is not required, skipping update.
+[        ] Artifact Instance of 'GradleWrapper' is not required, skipping update.
+[        ] Artifact Instance of 'AndroidGenSnapshotArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[   +4 ms] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[   +2 ms] Artifact Instance of 'FlutterSdk' is not required, skipping update.
+[   +3 ms] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[   +1 ms] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[   +2 ms] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[   +1 ms] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[   +1 ms] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[   +1 ms] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FontSubsetArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'PubDependencies' is not required, skipping update.
+[   +3 ms] executing: [/home/codespace/flutter/] git -c log.showSignature=false log HEAD -n 1 --pretty=format:%ad --date=iso
+[  +26 ms] Exit code 0 from: git -c log.showSignature=false log HEAD -n 1 --pretty=format:%ad --date=iso
+[        ] 2026-08-26 16:07:51 -0700
+[  +71 ms] Artifact Instance of 'AndroidGenSnapshotArtifacts' is not required, skipping update.
+[   +1 ms] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterEngineStamp' is not required, skipping update.
+[        ] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[   +6 ms] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[   +1 ms] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[   +1 ms] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[ +166 ms] Artifact Instance of 'AndroidGenSnapshotArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[   +5 ms] Artifact Instance of 'FlutterEngineStamp' is not required, skipping update.
+[   +1 ms] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[   +7 ms] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[ +114 ms] Skipping pub get: version match.
+[ +249 ms] Found plugin sqflite at /home/codespace/.pub-cache/hosted/pub.dev/sqflite-2.4.3/
+[  +50 ms] Found plugin sqflite_darwin at /home/codespace/.pub-cache/hosted/pub.dev/sqflite_darwin-2.4.3+1/
+[  +12 ms] Found plugin sqflite_android at /home/codespace/.pub-cache/hosted/pub.dev/sqflite_android-2.4.3/
+[ +230 ms] Found plugin sqflite at /home/codespace/.pub-cache/hosted/pub.dev/sqflite-2.4.3/
+[  +19 ms] Found plugin sqflite_darwin at /home/codespace/.pub-cache/hosted/pub.dev/sqflite_darwin-2.4.3+1/
+[   +8 ms] Found plugin sqflite_android at /home/codespace/.pub-cache/hosted/pub.dev/sqflite_android-2.4.3/
+[  +56 ms] Skipping generating web_plugin_registrant.dart because it is up-to-date.
+[  +67 ms] Found plugin sqflite at /home/codespace/.pub-cache/hosted/pub.dev/sqflite-2.4.3/
+[  +10 ms] Found plugin sqflite_darwin at /home/codespace/.pub-cache/hosted/pub.dev/sqflite_darwin-2.4.3+1/
+[   +3 ms] Found plugin sqflite_android at /home/codespace/.pub-cache/hosted/pub.dev/sqflite_android-2.4.3/
+[   +9 ms] Generating /workspaces/eKaye/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java
+[   +8 ms] Skipping generating GeneratedPluginRegistrant.java because it is up-to-date.
+[   +4 ms] Skipping generating generated_plugin_registrant.h because it is up-to-date.
+[   +1 ms] Skipping generating generated_plugin_registrant.cc because it is up-to-date.
+[   +2 ms] Skipping generating generated_plugins.cmake because it is up-to-date.
+[   +2 ms] Skipping generating generated_plugin_registrant.h because it is up-to-date.
+[   +1 ms] Skipping generating generated_plugin_registrant.cc because it is up-to-date.
+[   +1 ms] Skipping generating generated_plugins.cmake because it is up-to-date.
+[   +4 ms] Skipping generating GeneratedPluginRegistrant.h because it is up-to-date.
+[   +1 ms] Skipping generating GeneratedPluginRegistrant.m because it is up-to-date.
+[   +2 ms] Skipping generating GeneratedPluginRegistrant.swift because it is up-to-date.
+[ +264 ms] Launching lib/main.dart on Chrome in debug mode...
+[ +175 ms] Initializing file store
+[  +26 ms] Skipping target: gen_localizations
+[   +5 ms] Skipping target: gen_dart_plugin_registrant
+[   +4 ms] _composite: Starting due to {}
+[        ] _composite: Complete
+[   +3 ms] complete
+[   +4 ms] Updating assets
+[   +5 ms] runHooks() with {TargetFile: /workspaces/eKaye/lib/main.dart, BuildMode: debug} and TargetPlatform.web_javascript
+[   +2 ms] runHooks() - will perform dart build
+[ +103 ms] : Checking 40 packages for hook/build.dart took 26 ms.
+[   +1 ms] Checking 40 packages for hook/build.dart took 26 ms.
+[   +2 ms] No packages with native assets. Skipping native assets compilation.
+[   +2 ms] runHooks() - done
+[ +192 ms] Waiting for connection from debug service on Chrome...
+[ +122 ms] Found plugin sqflite at /home/codespace/.pub-cache/hosted/pub.dev/sqflite-2.4.3/
+[  +13 ms] Found plugin sqflite_darwin at /home/codespace/.pub-cache/hosted/pub.dev/sqflite_darwin-2.4.3+1/
+[   +4 ms] Found plugin sqflite_android at /home/codespace/.pub-cache/hosted/pub.dev/sqflite_android-2.4.3/
+[  +82 ms] impellerc command: [/home/codespace/flutter/bin/cache/artifacts/engine/linux-x64/impellerc, --sksl, --iplr, --json, --sl=/tmp/flutter_tools.UGZBOJ/0.9700822057191846.temp, --spirv=/tmp/flutter_tools.UGZBOJ/0.9700822057191846.temp.spirv, --input=/home/codespace/flutter/packages/flutter/lib/src/material/shaders/ink_sparkle.frag, --input-type=frag, --include=/home/codespace/flutter/packages/flutter/lib/src/material/shaders, --include=/home/codespace/flutter/bin/cache/artifacts/engine/linux-x64/shader_lib, --depfile=/tmp/flutter_tools.UGZBOJ/0.966845340559819.d]
+[   +1 ms] impellerc command: [/home/codespace/flutter/bin/cache/artifacts/engine/linux-x64/impellerc, --sksl, --iplr, --json, --sl=/tmp/flutter_tools.UGZBOJ/0.5882023718976738.temp, --spirv=/tmp/flutter_tools.UGZBOJ/0.5882023718976738.temp.spirv, --input=/home/codespace/flutter/packages/flutter/lib/src/widgets/shaders/stretch_effect.frag, --input-type=frag, --include=/home/codespace/flutter/packages/flutter/lib/src/widgets/shaders, --include=/home/codespace/flutter/bin/cache/artifacts/engine/linux-x64/shader_lib, --depfile=/tmp/flutter_tools.UGZBOJ/0.776812765572207.d]
+[ +461 ms] <- reset
+[  +12 ms] /home/codespace/flutter/bin/cache/dart-sdk/bin/dartaotruntime /home/codespace/flutter/bin/cache/dart-sdk/bin/snapshots/frontend_server_aot.dart.snapshot --sdk-root /home/codespace/flutter/bin/cache/flutter_web_sdk/ --incremental --target=dartdevc --experimental-emit-debug-metadata -DFLUTTER_BUILD_NAME=2.0.0 -DFLUTTER_BUILD_NUMBER=1 -DFLUTTER_VERSION=3.47.2 -DFLUTTER_CHANNEL=stable -DFLUTTER_GIT_URL=https://github.com/flutter/flutter.git -DFLUTTER_FRAMEWORK_REVISION=d3b14c8769 -DFLUTTER_ENGINE_REVISION=a804b26164 -DFLUTTER_DART_VERSION=3.13.2 --output-dill /tmp/flutter_tools.UGZBOJ/flutter_tool.XBVPBB/app.dill --packages /workspaces/eKaye/.dart_tool/package_config.json -Ddart.vm.profile=false -Ddart.vm.product=false --enable-asserts --track-widget-creation --filesystem-root /tmp/flutter_tools.UGZBOJ/flutter_tools.HBEYJU --filesystem-scheme org-dartlang-app --initialize-from-dill build/656f9a448d82c1b61dff76846b9a4deb.cache.dill.track.dill --platform file:///home/codespace/flutter/bin/cache/flutter_web_sdk/kernel/ddc_outline.dill --verbosity=error --dartdevc-canary --dartdevc-module-format=ddc
+[  +27 ms] <- compile org-dartlang-app:///web_entrypoint.dart
+[+31475 ms] Waiting for connection from debug service on Chrome... (completed in 32.2s)
+[   +1 ms] Synced 80.1MB.
+[        ] <- accept
+[        ] Caching compiled dill
+[ +146 ms] Launching Chromium (url = http://localhost:36385, headless = false, skipCheck = false, debugPort = null)
+[        ] Will use Chromium executable at /usr/bin/chromium-browser
+[  +17 ms] Using 
+[  +35 ms] [CHROME]: 
+[   +3 ms] [CHROME]: Command '/usr/bin/chromium-browser' requires the chromium snap to be installed.
+[        ] [CHROME]: Please install it with:
+[        ] [CHROME]: 
+[        ] [CHROME]: snap install chromium
+[        ] [CHROME]: 
+[  +13 ms] [CHROME]: 
+[        ] [CHROME]: Command '/usr/bin/chromium-browser' requires the chromium snap to be installed.
+[        ] [CHROME]: Please install it with:
+[        ] [CHROME]: 
+[        ] [CHROME]: snap install chromium
+[        ] [CHROME]: 
+[  +11 ms] [CHROME]: 
+[        ] [CHROME]: Command '/usr/bin/chromium-browser' requires the chromium snap to be installed.
+[        ] [CHROME]: Please install it with:
+[        ] [CHROME]: 
+[   +1 ms] [CHROME]: snap install chromium
+[        ] [CHROME]: 
+[  +10 ms] [CHROME]: 
+[        ] [CHROME]: Command '/usr/bin/chromium-browser' requires the chromium snap to be installed.
+[        ] [CHROME]: Please install it with:
+[        ] [CHROME]: 
+[        ] [CHROME]: snap install chromium
+[        ] [CHROME]: 
+[   +3 ms] [CHROME]:
+[   +3 ms] [CHROME]:Command '/usr/bin/chromium-browser' requires the chromium snap to be installed.
+[        ] [CHROME]:Please install it with:
+[        ] [CHROME]:
+[        ] [CHROME]:snap install chromium
+[        ] [CHROME]:
+[        ] Failed to launch browser after 3 tries. Command used to launch it: /usr/bin/chromium-browser --user-data-dir=/tmp/flutter_tools.UGZBOJ/flutter_tools_chrome_device.ASNCJU --remote-debugging-port=37945 --disable-background-timer-throttling --disable-extensions --disable-popup-blocking --bwsi --no-first-run --no-default-browser-check --disable-default-apps --disable-translate --disable-search-engine-choice-screen http://localhost:36385
+[   +5 ms] "flutter run" took 34,339ms.
+[  +22 ms] Failed to launch browser. Make sure you are using an up-to-date Chrome or Edge. Otherwise, consider using -d web-server instead and filing an issue at https://github.com/flutter/flutter/issues.
+[        ] 
+           #0      throwToolExit (package:flutter_tools/src/base/common.dart:34:3)
+           #1      ChromiumLauncher._spawnChromiumProcess.<anonymous closure> (package:flutter_tools/src/web/chrome.dart:341:17)
+           #2      _runUserCode (dart:async/stream_pipe.dart:14:23)
+           #3      Stream.firstWhere.<anonymous closure> (dart:async/stream.dart:1787:11)
+           <asynchronous suspension>
+           #4      ChromiumLauncher._spawnChromiumProcess (package:flutter_tools/src/web/chrome.dart:314:7)
+           <asynchronous suspension>
+           #5      ChromiumLauncher.launch (package:flutter_tools/src/web/chrome.dart:254:29)
+           <asynchronous suspension>
+           #6      ChromiumDevice.startApp (package:flutter_tools/src/web/web_device.dart:140:17)
+           <asynchronous suspension>
+           #7      ResidentWebRunner.run.<anonymous closure> (package:flutter_tools/src/isolated/resident_web_runner.dart:369:9)
+           <asynchronous suspension>
+           #8      asyncGuard.<anonymous closure> (package:flutter_tools/src/base/async_guard.dart:108:24)
+           <asynchronous suspension>
+
+
+[   +1 ms] Running 3 shutdown hooks
+[  +60 ms] Shutdown hooks complete
+[ +137 ms] exiting with code 1
